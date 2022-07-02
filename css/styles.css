@@ -1,0 +1,19 @@
+.main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  margin: 0 10px;
+  max-width: 30px;
+}
+
+.button {
+  margin: 0px 10px;
+}
+
+form {
+  margin: 10px;
+}

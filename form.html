@@ -4,28 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <title>Поиск видео на популярных хостингах</title>
-
-  <style>
-    .main {
-      margin-top: 50px;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
-
-    img {
-      margin: 0 10px;
-      max-width: 30px;
-    }
-
-    .button {
-      margin: 0px 10px;
-    }
-
-    form {
-      margin: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -36,7 +15,7 @@
 
     <div>
       <form action="https://vimeo.com/search" method="GET">
-        <label><img src="vimeo.png" alt="VIMEO icon"><input class="input" type="text" name="q"
+        <label><img src="img/vimeo.png" alt="VIMEO icon"><input class="input" type="text" name="q"
             placeholder="Never gonna"></label>
 
         <input class="button" type="submit" value="Search">
@@ -49,7 +28,7 @@
     <div>
       <form action="https://youtube.com/search" method="GET">
 
-        <label><img src="youtube.png" alt="YOUTUBE icon"><input type="text" name="search_query"
+        <label><img src="img/youtube.png" alt="YOUTUBE icon"><input type="text" name="search_query"
             placeholder="give you up"></label>
 
         <input class="button" type="submit" value="Search">
